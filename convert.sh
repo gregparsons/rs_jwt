@@ -1,0 +1,1 @@
+openssl pkcs8 -topk8 -nocrypt -in ec1.pem -out ec2.pem
