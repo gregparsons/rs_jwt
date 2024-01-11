@@ -1,4 +1,4 @@
-## Generate JWT
+## generate JWT (specifically for coinbase)
 
 ```./run.sh```
 
@@ -19,11 +19,11 @@ export JWT=$(cargo run)
 echo $JWT
 curl -H "Authorization: Bearer $JWT" 'https://api.coinbase.com/api/v3/brokerage/accounts'
 
-```
 
-## reference:
-https://docs.cloud.coinbase.com/advanced-trade-api/docs/rest-api-auth
-https://jwt.io/
-https://8gwifi.org/jwsgen.jsp
-https://github.com/Keats/jsonwebtoken/pull/359
+## references
+
+- https://docs.cloud.coinbase.com/advanced-trade-api/docs/rest-api-auth
+- https://jwt.io/
+- https://8gwifi.org/jwsgen.jsp
+- https://github.com/Keats/jsonwebtoken/pull/359
 
