@@ -4,7 +4,7 @@
 
 ## .env:
 ```
-RUST_LOG=debug
+RUST_LOG=info
 JWT_SECRET="secret"
 JWT_KEY_NAME="organizations/..."
 ```
