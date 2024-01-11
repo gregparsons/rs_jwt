@@ -1,6 +1,6 @@
 ## Generate JWT
 
-```cargo run```
+```./run.sh```
 
 ## .env:
 ```
